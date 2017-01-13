@@ -1,0 +1,28 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bhuvnesh.bhuvi_alarm.fragments.Alarm_1">
+
+
+    <TimePicker
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/timePicker1" />
+
+    <ToggleButton
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:textOff="Alarm Off"
+        android:textOn="Alarm On"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/toggle1"
+        android:onClick="change1"/>
+
+
+</RelativeLayout>
